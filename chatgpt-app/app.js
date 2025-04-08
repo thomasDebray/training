@@ -23,7 +23,7 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 });
 
-let assistant_id = "asst_x9DBVLAZ2bNUNHaLXWNEvgVh";
+let assistant_id = "asst_...";
 
 app.get('/', cors(corsOptions), function(req, res){
     res.sendFile('/public/index.html', { root: '.' });
