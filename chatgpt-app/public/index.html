@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant IA de Thomas Debray</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Thomas Debray</h1>
+        <h2>Assistant (beta)</h2>
+        
+        <div id="chat" role="log" aria-live="polite" aria-relevant="additions text">
+            <div class="arrow" id="arrow">↓</div>
+        </div>
+        
+        <form id="chatForm" aria-labelledby="form-label">
+            <label id="form-label" for="user-input">Posez votre question sur Thomas</label>
+            <input 
+                type="text" 
+                id="user-input" 
+                placeholder="Posez votre question sur Thomas" 
+                autocomplete="off" 
+                maxlength="400"
+                aria-required="true" 
+            />
+            <button id="send-btn" type="submit">Envoyer</button>
+        </form>
+
+        <div id="signature">Site créé par Thomas Debray.</div>       
+    </div>
+</body>
+</html>

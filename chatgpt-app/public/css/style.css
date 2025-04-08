@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2,5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1,5rem;
+  margin-bottom: 1.5rem;
+}
+
+#signature {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#form-label {
+  display: none;
+}
+
+#chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 50vh;
+  overflow-y: auto;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+input,button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.arrow {
+  display: none;
+  font-size: 20rem;
+  color: lightgray;
+  text-align: center;
+}
